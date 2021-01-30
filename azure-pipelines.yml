@@ -65,6 +65,6 @@ stages:
               awsCredentials: 'aws-connection'
               regionName: 'us-east-1'
               applicationName: 'Customerswebsite-env'
-              environmentName: 'CustomersWebSite-env'
+              environmentName: 'Customerswebsiteenv-env'
               applicationType: 'aspnetCoreWindows'
               dotnetPublishPath: '$(Pipeline.Workspace)/drop'
